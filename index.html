@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bookmark Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Bookmark Manager</h1>
+    <form id="bookmarkForm">
+      <input type="text" id="bookmarkName" placeholder="Bookmark Name" required>
+      <input type="url" id="bookmarkURL" placeholder="URL (https://example.com)" required>
+      <button type="submit" id="addBookmark">Add</button>
+    </form>
+    <table id="bookmarkTable">
+      <thead>
+        <tr>
+          <th>Index</th>
+          <th>Name</th>
+          <th>Website link</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="bookmarkList">
+      </tbody>
+    </table>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
+

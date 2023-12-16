@@ -1,0 +1,102 @@
+/* Add your CSS styles here */
+body {
+  font-family: Arial, sans-serif;
+  background-color: honeydew;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  padding: 20px 0;
+  margin: 0;
+  background-color: #333;
+  color: #fff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  cursor: pointer;
+}
+
+h1:hover {
+  background-color: #555;
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="url"],
+button {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  cursor: pointer;
+  background-color: black;
+  color: #fff;
+  border: none;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+button.delete,
+button.visit {
+  padding: 8px 12px;
+  margin-right: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.delete {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+}
+
+button.delete:hover {
+  background-color: #bb2d3b;
+}
+
+button.visit {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+}
+
+button.visit:hover {
+  background-color: #218838;
+}
+
+tbody tr:hover {
+  background-color: #f2f2f2;
+}
